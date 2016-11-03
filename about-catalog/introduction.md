@@ -18,4 +18,8 @@ The most interesting feature of this application is the **[catalog](http://aurel
 <br>
 #### We suggest to read the [Navigation Guide](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/about-catalog/navigation_guide.html) next.
 
+***
+***
+
+
 
