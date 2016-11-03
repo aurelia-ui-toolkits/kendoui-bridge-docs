@@ -173,5 +173,6 @@ __Note:__ The important part here is `"kendo-ui/js/kendo.button.min.js": "kendo-
 You will need to map every file in the Kendo `js` directory to the `kendo.all.min.js` file. We have seen that this is possible, but do not recommend you use this, as it is very verbose. If you know a better way to do this mapping, please contact us and we will update the documentation, so that others can use this information.
 <br>
 
-* * *
+***
+***
 
