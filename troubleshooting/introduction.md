@@ -7,3 +7,5 @@ The **[next page](#/help/docs/troubleshooting/2._using_gists_and_gistrun)** in t
 
 If you are Aurelia-XXX bridge developer or considering to get involved in that family of projects, the page **[Creating gists for KendoUI bridge catalog application](#/help/docs/notes_on_the_bridge/10._creating_gists_for_catalog_app)** provides more information in how to create gists specific to the bridge's catalog application.
 
+***
+***
