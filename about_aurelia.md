@@ -1,4 +1,4 @@
-# About Aurelia
+# 2. About Aurelia
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/15594823/74610c86-2387-11e6-8273-31649be0b620.png"></img>
 </p>
