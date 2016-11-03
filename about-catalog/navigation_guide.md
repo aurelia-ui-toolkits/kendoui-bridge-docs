@@ -46,6 +46,8 @@ This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/con
 
 Due to relative complexity of some of **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** components, this **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/bridge_developers_notes.html)** contains the selected collection of notes that could be useful to developers with interest in the bridge architecture and internal organization..
 <br><br>
+
+***
 ***
 
 
