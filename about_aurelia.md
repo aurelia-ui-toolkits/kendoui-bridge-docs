@@ -15,3 +15,6 @@ Aurelia isn't just another framework. It's backed by **[Blue Spire](http://blues
 #### We have a long term vision.
 
 Aurelia is the first step in realizing that vision. We believe it's critical to start with a completely free, open source application framework. We want to enable anyone to build amazing apps for many years to come and to know that they are building on a platform that isn't just here today and gone tomorrow. We're investing heavily in both building and supporting Aurelia and we're truly excited about what's in store!
+
+***
+***
