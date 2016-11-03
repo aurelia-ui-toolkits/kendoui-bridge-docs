@@ -38,3 +38,6 @@ Telerik maintains [typescript definitions](https://github.com/DefinitelyTyped/De
 #### Merge
 
 At this point we have two lists of available properties for a Kendo control, one extracted from the `options` object inside each Kendo control, and one from the Kendo typescript definitions. We merge these two lists together into one list that is most accurate. This list gets passed onto the `@generateBindables` decorator which creates bindable properties based on this list.
+
+***
+***
