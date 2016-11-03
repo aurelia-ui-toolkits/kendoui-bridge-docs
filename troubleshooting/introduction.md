@@ -1,4 +1,4 @@
-# Introduction
+# 7.1 Introduction
 
 
 This (Troubleshooting) section is provided to help developers with ideas and suggestions how to resolve problems related to using Aurelia KendoUI bridge. The content of this section will grow with time as the Aurelia-UI-Toolkits team plans to share the real life problems and solutions encountered so far.
