@@ -16,6 +16,9 @@ This **[application](http://aurelia-ui-toolkits.github.io/demo-kendo)** is envis
 - **[Documentation](http://aurelia-ui-toolkits.github.io/demo-kendo/#/documentation)** menu item invokes the GitBook containg the information you are reading right now.
 - **[Help](http://aurelia-ui-toolkits.github.io/demo-kendo/#/help)** menu item opens the Customer Support page.
 
+***
+***
+
 
 
 
