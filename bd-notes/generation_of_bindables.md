@@ -162,4 +162,5 @@ Note, the `@bindable` property declarations are gone, and the `@generateBindable
 
 **Note:** see the **[Harvesting bindable variables](#/help/docs/bridge_developers_notes/8._harvesting_bindable_variables)** note for more information on the "Generation of bindable properties" subject.
 
-* * *
+***
+***
