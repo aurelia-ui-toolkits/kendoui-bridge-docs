@@ -1,4 +1,4 @@
-# Using gists and GistRun
+# 7.2 Using gists and GistRun
 
 
 ### to experiment with Aurelia components and report problems
