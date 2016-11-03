@@ -148,3 +148,6 @@ For example:
 <br>
 
 Will load `basic-use.html`, `basic-use.js` and `basic-use.css` and also display these three files in the code preview window at the bottom of the showcase page.
+
+***
+***
