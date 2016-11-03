@@ -17,7 +17,7 @@
    * [4.1 Introduction](developers-tutorials/41_introduction.md)
    * [4.2 Skeleton esnext](developers-tutorials/42_skeleton_esnext.md)
    * [4.3 es2016-asp.net5](developers-tutorials/43_es2016-aspnet5.md)
-   * 4.4 typescript
+   * [4.4 typescript](developers-tutorials/44_typescript.md)
 * [Developers notes](developers_notes.md)
    * [Current limitations](app-developers-notes/current_limitations.md)
    * [Loading a subset of controls](app-developers-notes/loading_a_subset_of_controls.md)
