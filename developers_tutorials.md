@@ -6,4 +6,4 @@
  <br><br>
 </p>
 
-## _Due to significant changes in Aurelia skeleton navigation samples, this chapter is not yet ready._
+### _Due to significant changes in Aurelia skeleton navigation samples and this KendoUI bridge, this chapter is not yet ready._
