@@ -1,4 +1,4 @@
-# Localization
+# 5.10 Localization
 In order to load a Kendo translation file, the following import statements can be added to `main.js`:
 
 ```
