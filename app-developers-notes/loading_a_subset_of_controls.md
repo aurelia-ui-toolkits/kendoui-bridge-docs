@@ -29,3 +29,6 @@ If instead, you wish to use only a subset of KendoUI components - say, kendoButt
 
 #### Mobile applications
 More information about mobile applications with Kendo controls can be found on **[this website](http://www.kendouimobileguide.com/)**
+
+***
+***
