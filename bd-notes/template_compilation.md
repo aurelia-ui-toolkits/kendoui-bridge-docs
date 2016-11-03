@@ -130,3 +130,6 @@ As another sign of a good design, this is all that Aurelia needs to compile a vi
 
 #### Enhance
 We recommend that you read [this article](http://ilikekillnerds.com/2016/01/enhancing-at-will-using-aurelias-templating-engine-enhance-api/) for more information about Aurelia's enhance feature.
+
+***
+***
