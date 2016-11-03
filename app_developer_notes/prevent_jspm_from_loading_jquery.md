@@ -15,3 +15,6 @@ In order to resolve this, you need to do two things: override the jQuery depende
   ```
 2. Add the following line to the `map` section of `config.js`  
    `"jquery": "@empty",`
+   
+***
+***
