@@ -47,4 +47,5 @@ The tooltip is one of those controls that doesn't call the hook. So templates ha
 
 In my opinion, the best way would be to fix this at the source, by creating a PR to the [kendo core repository](https://github.com/telerik/kendo-ui-core) so that the tooltip calls the angular hook (which we use to start compiling aurelia templates)
 
-
+***
+***
