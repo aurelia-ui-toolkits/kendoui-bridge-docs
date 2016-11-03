@@ -1,4 +1,4 @@
-# About Aurelia KendoUI bridge catalog application
+# 1. About Aurelia KendoUI bridge catalog application
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/19891468/aad20296-a016-11e6-9aa2-547098490708.png"></img>
