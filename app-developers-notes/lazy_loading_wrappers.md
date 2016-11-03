@@ -27,3 +27,7 @@ This is how you would `<require>` the grid wrapper in a view:
 ```
 
 Note that you need to know the location of the wrappers. These paths can be found in the [config-builder.js](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/blob/master/src/config-builder.js) file of our plugin.
+
+***
+***
+
