@@ -15,3 +15,6 @@ The screen shot below depicts the Aurelia-KendoUI-bridge **[Installation page](#
  <br><br>
 Image 1
 </p>
+
+***
+***
