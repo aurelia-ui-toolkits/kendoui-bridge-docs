@@ -10,3 +10,6 @@ The **[Catalog index](http://aurelia-ui-toolkits.github.io/demo-kendo/#/catalog-
  <br><br>
 Image 1
 </p>
+
+***
+***
