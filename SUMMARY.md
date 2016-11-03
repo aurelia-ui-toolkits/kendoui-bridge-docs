@@ -15,6 +15,7 @@
    * [Why choose KendoUI](about-kendoui/why_choose_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
    * [4.1 Introduction](developers-tutorials/41_introduction.md)
+   * 4.2 Skeleton esnext
 * [Developers notes](developers_notes.md)
    * [Current limitations](app-developers-notes/current_limitations.md)
    * [Loading a subset of controls](app-developers-notes/loading_a_subset_of_controls.md)
