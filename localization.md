@@ -8,3 +8,6 @@ import 'kendo-ui/js/cultures/kendo.culture.nl-NL.min';
 ```
 
 `kendo.core.min` is imported to ensure that the `kendo` global is available for the localization files to attach to.
+
+***
+***
