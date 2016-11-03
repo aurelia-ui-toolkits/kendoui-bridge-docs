@@ -50,3 +50,6 @@ This set of instructions will guide you through setting up bundling in an Aureli
 6. Now run `http-server`: ![img](http://i.imgur.com/5v7dJRO.png)
 7. Open http://localhost:8080 in your browser and notice that significantly less files are loaded:
 ![img](http://i.imgur.com/x8oVhr0.png)
+
+***
+***
