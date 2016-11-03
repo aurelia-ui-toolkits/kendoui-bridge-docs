@@ -50,3 +50,6 @@ this.compositionEngine.compose(this.instruction).then(controller => {
 ```
 
 Please note that the last promise calls the bind and attached method which in turn call the *.recreate* method on all the Kendo UI Bridge components. This is **important**.
+
+***
+***
