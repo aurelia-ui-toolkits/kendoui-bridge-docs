@@ -32,7 +32,7 @@ As the result we are providing all **completed** tutorials in the **[kendoui-ske
 
 **Note:** use these ___completed___ tutorials if you get lost following the tutorial instructions or you just want to see how each of these applications work. 
 
-**Caveat** due to frequent changes in Aurelia Framework (something that is normal in early stages of any major software component) we cannt guarantee the correct functioning of these completed tutorials. Since they are provided mostly to show the "global view" of using KendoUI components in an Aurelia application, we hope that this inconvenience will be accepted)
+**Caveat** due to frequent changes in Aurelia Framework (something that is normal in early stages of any major software component) we cannot guarantee the correct functioning of these completed tutorials. Since they are provided mostly to show the "global view" of using KendoUI components in an Aurelia application, we hope that this inconvenience will be accepted)
 
 
 ***
