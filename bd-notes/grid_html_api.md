@@ -268,3 +268,6 @@ When Kendo's Grid gets initialized, this array of `AuCol` instances is passed al
 <br>
 
 Notice how we use Aurelia's binding syntax inside the template? How we compile this template is can be better explained in a different article.
+
+***
+***
