@@ -32,4 +32,8 @@ In all other cases you'd need to either use functions as `enable()`, `setOptions
 
 **Note:** Some Kendo controls have functions like `setOptions()` or `setDataSource()` that allows you to change an option of the Kendo control without having to destroy and recreate it.
 
+***
+***
+
+
 
