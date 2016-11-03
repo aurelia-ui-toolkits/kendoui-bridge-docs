@@ -266,3 +266,5 @@ Image 3
 </p>
 <br><br>
 This ends this tutorial
+***
+***
