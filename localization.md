@@ -12,7 +12,7 @@ import 'kendo-ui/js/cultures/kendo.culture.nl-NL.min';
 
 `kendo.core.min is imported to ensure that the kendo global is available for the localization files to attach to.`
 
-This by itself has no effect and Kendo will still use the default en-US localization. In main.js you also have to call \`kendo.culture\('nl-NL'\);\` for Kendo to switch the localization to \`nl-NL\`.
+This by itself has no effect and Kendo will still use the default en-US localization. In main.js you also have to call `kendo.culture('nl-NL');`  for Kendo to switch the localization to `nl-NL`.
 
 ---
 
