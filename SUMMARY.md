@@ -15,7 +15,7 @@
     * [Why choose KendoUI](about-kendoui/why_choose_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
     * [Introduction](developers-tutorials/41_introduction.md)
-    * Definition of sample changes
+    * [Definition of sample changes](definition-of-sample-changes.md)
     * [esnext - kendo](developers-tutorials/42_skeleton_esnext.md)
     * [esnext-aspnetcore - kendo](developers-tutorials/43_es2016-aspnet5.md)
     * [typescript - kendo](developers-tutorials/44_typescript.md)
