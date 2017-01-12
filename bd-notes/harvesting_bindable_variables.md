@@ -1,3 +1,4 @@
+_Bridge developers notes_
 # 6.7 Harvesting bindable variables
 
 In order to reduce the amount of code we have to write per wrapper, we use the `@generateBindables` decorator introduced in the **[Generation of bindable properties](#/help/docs/bridge_developers_notes/3._generation_of_bindables)** note. This decorator generates `@bindable` properties based on a list of strings, which is actually a list of properties that each Kendo control supports. So we need to maintain a list of possible properties per Kendo control.
