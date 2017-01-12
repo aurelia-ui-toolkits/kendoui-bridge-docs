@@ -1,4 +1,4 @@
-# 4.5 typescript-aspnetcore kendo
+# typescript-aspnetcore kendo
 
 ### Note: `typings install kendo-ui --source=dt --global`
 
