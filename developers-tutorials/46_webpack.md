@@ -1,4 +1,4 @@
-# 4.6 webpack
+# webpack
 
 1. Kendo Core installation instructions used: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/webpack.html
 
