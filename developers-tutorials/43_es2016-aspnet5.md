@@ -16,7 +16,8 @@
     },
      ````
 4. Add the `autocomplete.js` file
-    ```
+
+ ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
     export class autocomplete{
@@ -34,7 +35,8 @@
     ```
 
 5. Add the `autocomplete.html` file
-    ```
+
+   ```
     <template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
       <require from="aurelia-kendoui-bridge/common/template"></require>
