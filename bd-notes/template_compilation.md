@@ -1,3 +1,4 @@
+_Bridge developers notes_
 # 6.6 Template compilation
 
 #### Introduction
