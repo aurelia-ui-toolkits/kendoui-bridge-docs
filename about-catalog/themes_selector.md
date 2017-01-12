@@ -1,3 +1,4 @@
+_About this application_
 # 1.6 Themes selector
 
 Click on the **Theme** menu item results with the invocation of the theme selector pop-up window
