@@ -10,26 +10,10 @@ In order to cover all platforms and tooling choices currently supported by Aurel
 Image 1
 </p>
 
-and explaining how to use **KendoUI-core** and **KendoUI Pro** versions of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
-<br><br>
+by explaining how to use **KendoUI-core** version of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
+<br>
 
-As the result we are providing all **completed** tutorials in the **[kendoui-skeleton](https://github.com/aurelia-ui-toolkits/kendoui-skeleton)**, shown below:
-<br><br>
 
-#### _This image needs to be replaced_
-
-<p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/13557141/c392b166-e3b7-11e5-8459-1f1ef60afeb0.png"></img>
- <br><br>
-  Image 2
-</p>
-<br><br>
-
-***
-
-**Note:** use these ___completed___ tutorials if you get lost following the tutorial instructions or you just want to see how each of these applications work. 
-
-**Caveat** due to frequent changes in Aurelia Framework (something that is normal in early stages of any major software component) we cannot guarantee the correct functioning of these completed tutorials. Since they are provided mostly to show the "global view" of using KendoUI components in an Aurelia application, we hope that this inconvenience will be accepted)
 
 
 ***
