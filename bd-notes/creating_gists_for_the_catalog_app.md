@@ -7,14 +7,16 @@ ___Note: this article is written for bridge developers only. Creating and using 
 <br><br>
 
 We recently added the feature to run each example of each Aurelia component in the **[Aurelia KendoUI bridge catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/about/about)** app, using the Aurelia **[GistRun]()** tool:
-<br><br>
+
+<br>
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/14547822/86ecf532-027f-11e6-9306-a260c50823eb.png"></img>
  <br><br>
 Image 1
 </p>
-<br><br>
+
+<br>
 
 This GistRun is invoked by a click on the **RUN** button on the `Autocomplete` page of the catalog app:
 
@@ -22,10 +24,11 @@ This GistRun is invoked by a click on the **RUN** button on the `Autocomplete` p
   <img src="https://cloud.githubusercontent.com/assets/2712405/14547963/b218c38e-0280-11e6-968e-f2fa06c6c77a.png"></img>
  <br><br>
 </p>
-<br><br>
+
+<br>
 
 The rest of this article demonstrates the process of adding the `**RUN**` button to the **[combobox basic use](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/combobox/)** page.
-<br><br>
+
 ***
 
 ### Step 1
