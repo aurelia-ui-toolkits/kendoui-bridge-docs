@@ -1,3 +1,4 @@
+_Application Developer notes_
 # 5.9 What you need to know
 There are a few things you should know when working with the aurelia-kendoui-bridge.
 
