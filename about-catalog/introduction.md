@@ -1,3 +1,4 @@
+_About this application_
 # 1.1 Introduction
 This application is an Aurelia application developers friendly **catalog** of all **[KendoUI native controls](http://demos.telerik.com/kendo-ui/)**, now available as Aurelia components. It is the Aurelia-UI-Toolkits **[Aurelia-KendoUI bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** plugin that brings the KendoUI native controls into Aurelia world and this **catalog** application is so far the most complex application using this interface.
 <br>
