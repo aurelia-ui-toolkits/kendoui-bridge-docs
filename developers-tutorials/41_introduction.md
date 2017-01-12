@@ -24,3 +24,13 @@ Each of the original navigation skeleton applications renders the same UI:
  <br><br>
 Image 2
 </p>
+
+The tutorials show how to add the Aurelia KendoUI bridge catalog's **[`autocomplete`](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/autocomplete-customizing-templates)** sample
+where the actual code, building tools and internal organization of each sample varies across these six tutorials:
+
+<p align=center>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21911435/c664147a-d8ee-11e6-924b-f0ef23ccff05.png"></img>
+ <br><br>
+Image 3
+</p>
+
