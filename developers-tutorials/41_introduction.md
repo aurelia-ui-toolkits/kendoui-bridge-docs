@@ -15,6 +15,12 @@ and explain how to use **KendoUI-core** version of Telerik's KendoUI SDK associa
 
 ***
 
-##  Tutorial organization
+##  Tutorials organization
 
-Each of the navigation skeleton application 
+Each of the original navigation skeleton applications renders the same UI:
+
+<p align=center>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21910984/71d9f35e-d8ec-11e6-9b3b-a3a691318778.png"></img>
+ <br><br>
+Image 2
+</p>
