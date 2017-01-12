@@ -7,17 +7,17 @@
 3. ` jspm install css kendo-ui aurelia-kendoui-bridge`
 
 3. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
-    ```
+```
     paths: {
        "*": "dist/*",
        "github:*": "jspm_packages/github/*",
        "npm:*": "jspm_packages/npm/*",
        "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
     },
-     ````
-4. Add the `autocomplete.js` file
+```
 
- ```
+4. Add the `autocomplete.js` file
+```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
     export class autocomplete{
@@ -32,7 +32,7 @@
         };
       }	
     }
-    ```
+```
 
 5. Add the `autocomplete.html` file
 
