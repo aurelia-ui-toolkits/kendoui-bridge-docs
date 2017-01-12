@@ -1,3 +1,4 @@
+_Application Developer notes_
 # 5.7 Dynamic content creation
 
 Adding dynamic elements to an Aurelia app and the Kendo UI bridge can qualify as one of the requisites for building a large Desktop like GUI or LOB (Line of Business) application. This can either be to migrate an existing application or to create a new one.
