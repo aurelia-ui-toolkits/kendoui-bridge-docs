@@ -1,3 +1,4 @@
+_Application Developer tutorials_
 # typescript-aspnetcore kendo
 
 ### Note: `typings install kendo-ui --source=dt --global`
