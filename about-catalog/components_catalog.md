@@ -1,3 +1,4 @@
+_About this application_
 # 1.3 Catalog of Aurelia KendoUI components.
 The **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic)** is the most often used section of this app. It renders the default view (shown below as Image 1), specifically chosen to point out the "widget auto initialization" issue, which is a very frequent subject of discussion in **[Aurelia KendoUI chat room](https://gitter.im/adriatic/Aurelia-KendoUI)** 
 <br><br>
