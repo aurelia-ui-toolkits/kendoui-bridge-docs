@@ -6,7 +6,7 @@
 
 3. ` jspm install css kendo-ui aurelia-kendoui-bridge`
 
-3. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
+4. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
 ```
     paths: {
        "*": "dist/*",
@@ -16,7 +16,7 @@
     },
 ```
 
-4. Add the `autocomplete.js` file
+5. Add the `autocomplete.js` file
 ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
@@ -34,9 +34,8 @@
     }
 ```
 
-5. Add the `autocomplete.html` file
-
-   ```
+6. Add the `autocomplete.html` file
+```
     <template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
       <require from="aurelia-kendoui-bridge/common/template"></require>
@@ -70,10 +69,10 @@
         </div>
       </div>
     </template>
-    ```
+```
 
-6. Add the `autocomplete.css` file
-    ```
+7. Add the `autocomplete.css` file
+```
     .dropdown-header {
             border-width: 0 0 1px 0;
             text-transform: uppercase;
@@ -136,17 +135,16 @@
             padding: 0;
             font-size: .8em;
         }
+```
 
-    ```
-
-7. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
+8. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
  
-8. Add the following lines to `autocomplete.html`
-    ```
+9. Add the following lines to `autocomplete.html`
+```
     <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
     <require from="aurelia-kendoui-bridge/common/template"></require>  
-    ```
-9. Add the following to the `autocomplete.js`
+```
+10. Add the following to the `autocomplete.js`
 
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
