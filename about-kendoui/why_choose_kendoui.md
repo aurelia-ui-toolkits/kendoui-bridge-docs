@@ -1,3 +1,4 @@
+_About KendoUI_
 # 3.2 Why choose KendoUI
 
 We expect at least two classes of Aurelia-KendoUI components users
