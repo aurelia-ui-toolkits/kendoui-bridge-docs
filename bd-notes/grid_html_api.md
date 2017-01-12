@@ -1,5 +1,5 @@
+_Bridge developers notes_
 # 6.5 Grid HTML api
-
 
 #### How is the KendoUI Grid component being used?
 <br>
