@@ -1,3 +1,4 @@
+_Application Developer notes_
 # 5.5 Kendo Tooltip HTML content
 
 The example illustrating the use of Tooltip with a template behaves differently than most KendoUI Aurelia components, as stated in the Documentation tab on **[this page](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/tooltip/content-template)**
