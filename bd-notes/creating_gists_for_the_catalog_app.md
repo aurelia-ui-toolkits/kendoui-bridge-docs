@@ -17,7 +17,6 @@ Image 1
 <br><br>
 
 This GistRun is invoked by a click on the **RUN** button on the `Autocomplete` page of the catalog app:
-<br><br>
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/14547963/b218c38e-0280-11e6-968e-f2fa06c6c77a.png"></img>
