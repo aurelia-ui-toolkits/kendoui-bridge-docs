@@ -1,3 +1,4 @@
+_Bridge developers notes_
 # 6.9 Creating gists for the catalog app
 
 ### Introduction
