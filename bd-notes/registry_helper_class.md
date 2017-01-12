@@ -1,3 +1,4 @@
+_Bridge developers notes_
 # 6.8 Registry helper class
 
 The **[registry.json](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/blob/master/sample/src/help/registry.json)** file is used to short-cut the process of configuring showcase-area pages in the sample application by configuring the router, loading assets and setting up the Code Preview area that appears underneath the demo control itself (Image 1 below)
