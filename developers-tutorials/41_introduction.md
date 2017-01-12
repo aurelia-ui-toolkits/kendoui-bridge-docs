@@ -7,7 +7,6 @@ In order to cover all platforms and tooling choices currently supported by Aurel
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21871307/560f0b86-d82f-11e6-998f-7517de2fb24f.png"></img>
- <br>
 Image 1
 </p>
 
