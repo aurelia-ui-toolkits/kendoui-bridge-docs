@@ -1,4 +1,4 @@
-# 4.2 esnext kendo
+# esnext kendo
 
 1. Kendo Core installation: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html
 
