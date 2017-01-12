@@ -1,3 +1,5 @@
+_About KendoUI_
+
 # 3.1 Integrated with Aurelia
 Kendo UI is a fast, light, complete: 70+ jQuery-based UI widgets in one powerful toolset, used by tens of thousands developers because if offers everything for building web and mobile apps with HTML5 and JavaScript. Despite its popularity, it was not easy to use for Aurelia developers due to differences between JavaScript version used in KendoUI controls and JavaScript ES2016 used by Aurelia framework.
 <br><br>
