@@ -17,7 +17,7 @@ and explain how to use **KendoUI-core** version of Telerik's KendoUI SDK associa
 
 ##  Tutorials organization
 
-Each of the original navigation skeleton applications renders the same UI:
+Each of the **original** navigation skeleton applications renders the same UI:
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21910984/71d9f35e-d8ec-11e6-9b3b-a3a691318778.png"></img>
@@ -26,7 +26,7 @@ Image 2
 </p>
 
 The tutorials show how to add the Aurelia KendoUI bridge catalog's **[`autocomplete`](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/autocomplete-customizing-templates)** sample
-where the actual code, building tools and internal organization of each sample varies across these six tutorials:
+where the actual code, building tools and internal organization of each sample varies across these six tutorials: The screenshot below depicts the **modified** navigation skeleton application "sporting" the added **`Autocomplete`** menu item 
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21911435/c664147a-d8ee-11e6-924b-f0ef23ccff05.png"></img>
