@@ -1,3 +1,4 @@
+_Application Developer notes_
 # 5.1 Current limitations
 This section contains additional information which we hope will be of value to Aurelia application developers using KendoUI bridge.
 <br><br>
