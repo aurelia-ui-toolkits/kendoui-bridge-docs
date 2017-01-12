@@ -9,7 +9,7 @@ In order to cover all platforms and tooling choices currently supported by Aurel
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21871307/560f0b86-d82f-11e6-998f-7517de2fb24f.png"></img>
  <br><br>
-Image 2
+Image 1
 </p>
 
 and explaining how to use **KendoUI-core** and **KendoUI Pro** versions of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
