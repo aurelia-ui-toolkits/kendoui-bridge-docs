@@ -1,4 +1,5 @@
-# Introduction
+_Application Developer tutorials_
+# 4.1. Introduction
 
 The collection of articles contained in this **App developers tutorials** help section, (_which begins with this article you are reading now_),  presents six short tutorials describing the process of adding Aurelia KendoUI `autocomplete` component to an Aurelia application.
 
