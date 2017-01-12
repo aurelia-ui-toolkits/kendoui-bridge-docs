@@ -2,7 +2,7 @@
 
 The collection of articles contained in this **App developers tutorials** help section, (_which begins with this article you are reading now_),  presents six short tutorials describing the process of adding Aurelia KendoUI `autocomplete` component to an Aurelia application.
 
-In order to cover all platforms and tooling choices currently supported by Aurelia, we show the above mentioned process applied to each of the **[skeleton navigation](https://github.com/aurelia/skeleton-navigation)** applications:
+In order to cover all platforms and tooling choices currently supported by Aurelia, we show the above mentioned process applied to each of the **[navigation skeleton](https://github.com/aurelia/skeleton-navigation)** applications:
 <br><br>
 
 <p align=center>
@@ -15,4 +15,6 @@ and explain how to use **KendoUI-core** version of Telerik's KendoUI SDK associa
 
 ***
 
-## 4.1.1 
+##  Tutorial organization
+
+Each of the navigation skeleton application 
