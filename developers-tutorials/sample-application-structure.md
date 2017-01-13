@@ -14,15 +14,16 @@ As stated in the **[Introduction](./41_introduction.html)** section we are showi
  - autocomplete.js
  - autocomplete.css
 
-We willuse the "colored agenda" below to tag the "classese" of files in each of the subsequent tutorials starting with **[esnext - kendo](./developers-tutorials/42_skeleton_esnext.html)**
+We will use the "colored agenda" below to tag the "classese" of files in each of the subsequent tutorials starting with **[esnext - kendo](./developers-tutorials/42_skeleton_esnext.html)**
 
 <br>
 
 <p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/21949374/aa860d36-d9bf-11e6-9a18-c30a1b7b4578.png"></img>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21949437/631a907e-d9c0-11e6-9d46-a8db1531acae.png"></img>
  <br><br>
 Image 3
 </p>
+
 
  
  
