@@ -19,9 +19,9 @@ We will use the "colored agenda" below to tag the "classese" of files in each of
 <br>
 
 <p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/21949437/631a907e-d9c0-11e6-9d46-a8db1531acae.png"></img>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21949515/055e7698-d9c1-11e6-9752-4c65b6fb6f44.png"></img>
  <br><br>
-Image 3
+
 </p>
 
 
