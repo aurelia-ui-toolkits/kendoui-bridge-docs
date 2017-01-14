@@ -6,7 +6,7 @@ _Application Developer tutorials_
 ***
 1. Kendo Core installation: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html
 
-2. `jspm install css kendo-ui aurelia-kendoui-bridge` (_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built_)
+(_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
 
 3. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
     ```
