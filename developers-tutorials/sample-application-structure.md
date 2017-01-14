@@ -14,7 +14,7 @@ As stated in the **[Introduction](./41_introduction.html)** section we are showi
  - autocomplete.js
  - autocomplete.css
 
-We will use the "colored agenda" below to tag the "classese" of files in each of the subsequent tutorials starting with **[esnext - kendo](./developers-tutorials/42_skeleton_esnext.html)**
+We will use the "colored agenda" below to tag the "classese" of files in each of the subsequent tutorials starting with **[esnext - kendo](./42_skeleton_esnext.html)**
 
 <br>
 
