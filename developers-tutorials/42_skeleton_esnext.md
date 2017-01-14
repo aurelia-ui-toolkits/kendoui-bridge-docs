@@ -7,7 +7,7 @@ _Application Developer tutorials_
    jspm install css kendo-ui aurelia-kendoui-bridge
    ```
 
-3. Update `config.js`
+3. Update `config.js`, _by adding the last line, pointed by the arrow._
 
  ```
     paths: {
