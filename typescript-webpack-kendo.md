@@ -156,14 +156,8 @@ _Application Developer tutorials_
     ```
 
 11. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
-    ```
-    ```
-12. Add the following lines to `autocomplete.html`
-    ```
-    <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
-    <require from="aurelia-kendoui-bridge/common/template"></require>  
-    ```
-13. Add the following to the `autocomplete.js`
+
+12. Add the following to the `autocomplete.js`
 
     ````
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
