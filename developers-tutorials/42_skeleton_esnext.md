@@ -9,7 +9,7 @@ _Application Developer tutorials_
    jspm install css kendo-ui aurelia-kendoui-bridge
    ```
 
-3. Update `config.js`, _by adding the last line, pointed by the arrow._
+2. Update `config.js`, _by adding the last line, pointed by the arrow._
 
  ```
     paths: {
@@ -22,7 +22,7 @@ _Application Developer tutorials_
  ```
  _Note that the version number shown above (2016.3.1306) is the latest available at the time of writing this document - you will likely have to change it._
  
-4. Add the `autocomplete.js` file
+3. Add the `autocomplete.js` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
@@ -40,7 +40,7 @@ _Application Developer tutorials_
     }
     ```
 
-5. Add the `autocomplete.html` file
+4. Add the `autocomplete.html` file
     ```
     <template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
@@ -77,7 +77,7 @@ _Application Developer tutorials_
     </template>
     ```
 
-6. Add the `autocomplete.css` file
+5. Add the `autocomplete.css` file
     ```
     .dropdown-header {
             border-width: 0 0 1px 0;
@@ -144,16 +144,17 @@ _Application Developer tutorials_
 
     ```
 
-7. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
-    ```
-    ```
+6. Add the request to load the aurelia-kendoui-bridge plugin. This should be done by adding the highlighted statement below to the file `main.js`
+<p align=center>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21957188/336469e6-da5f-11e6-809f-17ca049854a3.png"></img>
+</p>
 
-8. Add the following lines to `autocomplete.html`
+7. Add the following lines to `autocomplete.html`
     ```
     <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
     <require from="aurelia-kendoui-bridge/common/template"></require>  
     ```
-9. Add the following to the `autocomplete.js`
+8. Add the following to the `autocomplete.js`
 
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
@@ -163,6 +164,8 @@ _Application Developer tutorials_
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
 
     ````
+    
+***
 
 
 
