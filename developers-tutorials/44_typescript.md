@@ -9,7 +9,7 @@ _Application Developer tutorials_
    jspm install css kendo-ui aurelia-kendoui-bridge
    ```
 
-3. Update `config.js`, _by adding the last line, pointed by the arrow._
+2. Update `config.js`, _by adding the last line, pointed by the arrow._
  ```
     paths: {
        "*": "dist/*",
@@ -18,6 +18,12 @@ _Application Developer tutorials_
        "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
     },
  ```
+ 
+3. Run the following command in the console:
+ ```
+ typings install kendo-ui --source=dt --global
+ ```
+ 
 4. Add the `autocomplete.ts` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
