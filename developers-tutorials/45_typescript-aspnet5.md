@@ -6,7 +6,7 @@ _Application Developer tutorials_
 ***
 1. Kendo Core installation: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html
 
-2. _run the following command in the console:_
+2. Run the following command in the console:
 
  ```
  jspm install css kendo-ui aurelia-kendoui-bridge
@@ -22,6 +22,12 @@ _Application Developer tutorials_
        "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
     },
      ```
+     
+2. Run the following command in the console:
+ ```
+ typings install kendo-ui --source=dt --global
+ ```
+     
 4. Add the `autocomplete.js` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
