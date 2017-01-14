@@ -1,6 +1,12 @@
 _Application Developer tutorials_
 # typescript-aspnetcore kendo
 
+#### Synopsis
+
+***
+
+#### Details
+
 1. Kendo Core and KendoUI bridge installation as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html)** 
 
  Run the following command in the console:
