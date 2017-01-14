@@ -3,7 +3,7 @@ _Application Developer tutorials_
 
 1. Kendo Core and KendoUI bridge installation as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html)**
 
-2. `jnpm install css kendo-ui aurelia-kendoui-bridge`
+2. `jspm install css kendo-ui aurelia-kendoui-bridge`
  
 3. Update `config.js`, _by adding the last line, pointed by the arrow._
  ```
