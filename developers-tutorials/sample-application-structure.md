@@ -5,7 +5,7 @@ All details about each sample application exist in the application's own README.
 
 As stated in the **[Introduction](./41_introduction.html)** section we are showing how to add the Autocomplete component from the free KendoUI Core SDK. Adding this component consists of:
 
-1. Adding KendoUI SDK using **[`npm`](https://github.com/angular/angular.js/blob/master/src/ng/browser.js)** commands in the console
+1. Adding KendoUI SDK using **[`npm`](https://github.com/angular/angular.js/blob/master/src/ng/browser.js)** commands in the console (_this is not true across all tutorial articles - **x, y, and z** are execeptions_
 
 2. Modifying existing configuration and source files
 
