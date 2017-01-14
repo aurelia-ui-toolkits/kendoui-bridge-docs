@@ -1,19 +1,19 @@
 _Application Developer tutorials_
 # typescript kendo
 
-1. Kendo Core installation: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html
+1. Kendo Core and KendoUI bridge installation as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html)**
 
 2. `jnpm install css kendo-ui aurelia-kendoui-bridge`
  
-3. Update `config.js`
-    ```
+3. Update `config.js`, _by adding the last line, pointed by the arrow._
+ ```
     paths: {
        "*": "dist/*",
        "github:*": "jspm_packages/github/*",
        "npm:*": "jspm_packages/npm/*",
        "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
     },
-     ````
+ ```
 4. Add the `autocomplete.ts` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
