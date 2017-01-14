@@ -10,7 +10,7 @@ _Application Developer tutorials_
  ```
   (_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-typescript-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
 
-3. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
+2. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
     ```
     paths: {
        "*": "dist/*",
@@ -20,7 +20,7 @@ _Application Developer tutorials_
     },
      ```
      
-2. Run the following command in the console:
+3. Run the following command in the console:
  ```
  typings install kendo-ui --source=dt --global
  ```
