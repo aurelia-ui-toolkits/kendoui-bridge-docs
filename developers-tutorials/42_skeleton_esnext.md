@@ -149,21 +149,11 @@ _Application Developer tutorials_
   <img src="https://cloud.githubusercontent.com/assets/2712405/21957188/336469e6-da5f-11e6-809f-17ca049854a3.png"></img>
 </p>
 
-7. Add the following lines to `autocomplete.html`
-    ```
-    <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
-    <require from="aurelia-kendoui-bridge/common/template"></require>  
-    ```
-8. Add the following to the `autocomplete.js`
-
-    ```
-    import 'kendo-ui/js/kendo.autocomplete.min';
-    ```
-    as well as 
-    ````
+7. Add the following line to `app.js`
+    
+ ```
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
-
-    ````
+ ```
     
 ***
 
