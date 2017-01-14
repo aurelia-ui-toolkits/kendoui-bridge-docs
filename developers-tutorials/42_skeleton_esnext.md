@@ -20,6 +20,8 @@ _Application Developer tutorials_
     },
     
  ```
+ _Note that the version number shown above (2016.3.1306) is the latest available at the time of writing this document - you will likely have to change it._
+ 
 4. Add the `autocomplete.js` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
