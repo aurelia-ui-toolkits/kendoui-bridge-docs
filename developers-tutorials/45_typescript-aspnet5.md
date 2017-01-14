@@ -1,9 +1,6 @@
 _Application Developer tutorials_
 # typescript-aspnetcore kendo
 
-### Note: `typings install kendo-ui --source=dt --global`
-
-***
 1. Kendo Core installation: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html
 
 2. Run the following command in the console:
