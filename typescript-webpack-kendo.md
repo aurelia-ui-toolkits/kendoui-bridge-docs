@@ -10,7 +10,6 @@ _Application Developer tutorials_
     ```
 3. run `npm install kendo-ui-core aurelia-kendoui-bridge --save`
 
-
 4. Add the following import to main.js: `import "kendo-ui-core";`
 
 5. Add the following to `webpack.config.babel.js` following to `aurelia bundles`
@@ -30,7 +29,6 @@ _Application Developer tutorials_
  typings install kendo-ui --source=dt --global
  ```
     
-
 8. Add the `autocomplete.js` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
