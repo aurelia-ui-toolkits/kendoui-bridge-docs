@@ -2,15 +2,21 @@ _Application Developer tutorials_
 # esnext-aspnetcore - kendo
 
 1. Kendo Core and KendoUI bridge installation as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html)** 
-<br><br>
 
- ___run the following command in the console___
+  _run the following command in the console:_
 
-2. `jspm install css kendo-ui aurelia-kendoui-bridge` (_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
+   ```
+   jspm install css kendo-ui aurelia-kendoui-bridge
+   ```
 
-3. ` jspm install css kendo-ui aurelia-kendoui-bridge`
+2. _run the following command in the console:_
 
-4. Update `config.js` (_Note that this takes place in `wwwroot/config.js` file_)
+ ```
+ jspm install css kendo-ui aurelia-kendoui-bridge
+ ```
+  (_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
+
+4. Update `config.js` (_Note that this file is now in `wwwroot/config.js` file_)
 ```
     paths: {
        "*": "dist/*",
