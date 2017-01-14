@@ -16,7 +16,7 @@ _Application Developer tutorials_
        "npm:*": "jspm_packages/npm/*",
        "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
     },
-     ````
+     ```
 4. Add the `autocomplete.js` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
