@@ -24,8 +24,14 @@ _Application Developer tutorials_
     ```
     'aurelia-kendoui-bridge': ['aurelia-kendoui-bridge]'
     ````
+    
+7. Run the following command in the console:
+ ```
+ typings install kendo-ui --source=dt --global
+ ```
+    
 
-7. Add the `autocomplete.js` file
+8. Add the `autocomplete.js` file
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
@@ -43,7 +49,7 @@ _Application Developer tutorials_
     }
     ```
 
-8. Add the `autocomplete.html` file (_note that kendo specific stylesheets are defined in index.html_)
+9. Add the `autocomplete.html` file (_note that kendo specific stylesheets are defined in index.html_)
     ```
     <template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
@@ -78,7 +84,7 @@ _Application Developer tutorials_
     </template>
     ```
 
-9. Add the `autocomplete.css` file
+10. Add the `autocomplete.css` file
     ```
     .dropdown-header {
             border-width: 0 0 1px 0;
@@ -145,15 +151,15 @@ _Application Developer tutorials_
 
     ```
 
-10. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
+11. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
     ```
     ```
-11. Add the following lines to `autocomplete.html`
+12. Add the following lines to `autocomplete.html`
     ```
     <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
     <require from="aurelia-kendoui-bridge/common/template"></require>  
     ```
-12. Add the following to the `autocomplete.js`
+13. Add the following to the `autocomplete.js`
 
     ````
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
