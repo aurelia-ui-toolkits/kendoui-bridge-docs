@@ -154,13 +154,16 @@ _Application Developer tutorials_
         }
 ```
 
-8. Load the kendoui bridge (add `    .plugin('aurelia-kendoui-bridge');` in `main.js`
- 
+8. Add the request to load the aurelia-kendoui-bridge plugin. This should be done by adding the highlighted statement below to the file `main.js`
+
+<p align=center>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21959138/412ffcfc-da8c-11e6-82bd-b326e34e830d.png"></img>
+</p>
 9. Add the following lines to `autocomplete.html`
-```
+   ```
     <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
     <require from="aurelia-kendoui-bridge/common/template"></require>  
-```
+   ```
 10. Add the following to the `autocomplete.js`
 
     ```
