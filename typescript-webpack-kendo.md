@@ -40,14 +40,16 @@ Add the following to **`webpack.config.babel.ts`** file to **`generateConfig`** 
     'aurelia-kendoui-bridge': ['aurelia-kendoui-bridge]'
     ````
 
+##### Step 6.
 
-    
-7. Run the following command in the console:
+Run the following command in the console:
  ```
  typings install kendo-ui --source=dt --global
  ```
     
-8. Add the `autocomplete.js` file
+##### Step 7.
+
+Add this **`autocomplete.ts`** file to the project
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
@@ -65,7 +67,9 @@ Add the following to **`webpack.config.babel.ts`** file to **`generateConfig`** 
     }
     ```
 
-9. Add the `autocomplete.html` file (_note that kendo specific stylesheets are defined in index.html_)
+##### Step 8.
+
+Add this **`autocomplete.html`** file (_note that kendo specific stylesheets are defined in index.html_)
     ```
     <template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
@@ -100,7 +104,9 @@ Add the following to **`webpack.config.babel.ts`** file to **`generateConfig`** 
     </template>
     ```
 
-10. Add the `autocomplete.css` file
+##### Step 9.
+
+Add the `autocomplete.css` file
     ```
     .dropdown-header {
             border-width: 0 0 1px 0;
@@ -166,16 +172,27 @@ Add the following to **`webpack.config.babel.ts`** file to **`generateConfig`** 
         }
 
     ```
-11. Add the request to load the aurelia-kendoui-bridge plugin. This should be done by adding the highlighted statement below to the file `main.ts`
+    
+##### Step 11.
+
+Add the request to load the aurelia-kendoui-bridge plugin by adding the highlighted statement below (`.plugin('aurelia-kendoui-bridge');` to the file `main.js`
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21959138/412ffcfc-da8c-11e6-82bd-b326e34e830d.png"></img>
 </p>
-&nbsp;
-12. Add the following to the `autocomplete.js`
-    ````
-    { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
 
-    ````
+##### Step 12.
+
+Add the following line to **`app.ts`**
+    
+ ```
+    { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
+ ```
+    
+***
+
+
+
+
 
 
