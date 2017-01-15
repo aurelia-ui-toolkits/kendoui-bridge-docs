@@ -1,22 +1,28 @@
 _Application Developer tutorials_
 # typescript kendo
 
-#### Synopsis
+#### Summary
+
+- Kendo Core and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
+
+
+
 
 ***
 
 #### Details
 
+##### Step 1.
 
-1. Kendo Core and KendoUI bridge installation as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html)** 
-
- Run the following command in the console:
+Run the following command in the console:
 
    ```
    jspm install css kendo-ui aurelia-kendoui-bridge
    ```
 
-2. Update `config.js`, _by adding the last line, pointed by the arrow._
+##### Step 2.
+
+Update **`config.js`** by adding the last line, pointed by the arrow.
  ```
     paths: {
        "*": "dist/*",
@@ -26,12 +32,16 @@ _Application Developer tutorials_
     },
  ```
  
-3. Run the following command in the console:
+##### Step 3.
+
+Run the following command in the console:
  ```
  typings install kendo-ui --source=dt --global
  ```
  
-4. Add the `autocomplete.ts` file
+##### Step 4. 
+
+Add this **`autocomplete.ts`* file to the project
     ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
@@ -51,7 +61,9 @@ _Application Developer tutorials_
     }
     ```
 
-5. Add the `autocomplete.html` file
+##### Step 5.
+
+Add this **`autocomplete.html`** file to the project
     ```
     template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
@@ -88,7 +100,9 @@ _Application Developer tutorials_
     </template> 
     ```
 
-6. Add the `autocomplete.css` file
+##### Step 6.
+
+Add this **`autocomplete.css`** file to the project
     ```
       .dropdown-header {
             border-width: 0 0 1px 0;
@@ -155,28 +169,32 @@ _Application Developer tutorials_
 
     ```
 
-6. Add the request to load the aurelia-kendoui-bridge plugin. This should be done by adding the highlighted statement below to the file `main.ts`
+##### Step 7.
+
+Add the request to load the aurelia-kendoui-bridge plugin by adding the highlighted statement below (**`.plugin('aurelia-kendoui-bridge');`** to the file **`main.js`**
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21959138/412ffcfc-da8c-11e6-82bd-b326e34e830d.png"></img>
 </p>
 
+##### Step 8.
 
-8. Add the following lines to `autocomplete.html`
-    ```
-    <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
-    <require from="aurelia-kendoui-bridge/common/template"></require>  
-    ```
-9. Add the following to the `autocomplete.ts`
-
-    ```
-    import 'kendo-ui/js/kendo.autocomplete.min';
-    ```
-10. Add the following do `app.ts`
-    ````
+Add the following line to `app.js`
+    
+ ```
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
+ ```
+    
+***
 
-    ````
+
+
+
+
+
+
+
+
 
 
 
