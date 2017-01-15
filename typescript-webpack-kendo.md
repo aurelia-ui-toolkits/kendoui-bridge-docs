@@ -1,22 +1,29 @@
 _Application Developer tutorials_
 # typescript-webpack - kendo
 
-#### Synopsis
+#### Summary
+
+- Kendo Core and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
+
 
 ***
 
+
+
 #### Details
 
-1. Kendo Core installation instructions used: https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/webpack.html
+##### Step 1. 
 
-2. Add the following stylesheets to the head section of `index.html:
+Add the following stylesheets to the head section of `index.html:
     ```
     <link rel="stylesheet" href="node_modules/kendo-ui-core/css/web/kendo.common.core.min.css">
     <link rel="stylesheet" href="node_modules/kendo-ui-core/css/web/kendo.default.min.css">
     ```
-3. run `npm install kendo-ui-core aurelia-kendoui-bridge --save`
+##### Step 2. 
 
-4. Add the following import to main.js: `import "kendo-ui-core";`
+Run the command **`npm install kendo-ui-core aurelia-kendoui-bridge --save`** in the console.
+
+Add the following import to main.js: `import "kendo-ui-core";`
 
 5. Add the following to `webpack.config.babel.js` following to `aurelia bundles`
     ```
