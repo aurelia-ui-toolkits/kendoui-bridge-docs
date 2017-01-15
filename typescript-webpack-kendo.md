@@ -8,8 +8,6 @@ _Application Developer tutorials_
 
 ***
 
-
-
 #### Details
 
 ##### Step 1. 
