@@ -20,19 +20,27 @@ Add the following stylesheets to the head section of `index.html:
 
 Run the command **`npm install kendo-ui-core aurelia-kendoui-bridge --save`** in the console.
 
-Add the following import to main.js: `import "kendo-ui-core";`
+##### Step 3. 
 
-5. Add the following to `webpack.config.babel.js` following to `aurelia bundles`
+Add the following import to **`main.js`**: **`import "kendo-ui-core";`**
+
+##### Step 4. 
+
+Add the following to `webpack.config.babel.js` following to `aurelia bundles`
     ```
     kendo: [
        'aurelia-kendoui-bridge'
     ]
     ```
 
-6. Add the following to `webpack.config.babel.js` to `generateConfig's` entry property
+##### Step 5.
+
+Add the following to **`webpack.config.babel.ts`** file to **`generateConfig`** entry property
     ```
     'aurelia-kendoui-bridge': ['aurelia-kendoui-bridge]'
     ````
+
+
     
 7. Run the following command in the console:
  ```
