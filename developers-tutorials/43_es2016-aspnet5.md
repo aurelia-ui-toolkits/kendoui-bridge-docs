@@ -3,7 +3,7 @@ _Application Developer tutorials_
 
 #### Summary
 
-- Details on building and running this applications are **[here]()**.
+- Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)**.
 
 - Kendo Core and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
 
