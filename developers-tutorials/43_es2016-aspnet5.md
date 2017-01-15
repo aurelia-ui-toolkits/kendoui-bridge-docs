@@ -184,6 +184,8 @@ Add the following line to `app.js`
  ```
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
  ```
+ 
+ ***
 
 
 
