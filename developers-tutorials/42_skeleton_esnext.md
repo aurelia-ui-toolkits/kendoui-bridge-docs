@@ -3,31 +3,34 @@ _Application Developer tutorials_
 
 #### Synopsis
 
+Kendo Core and KendoUI bridge installation is run as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
+
+
+
 ***
 
 #### Details
 
 
+##### Step 1. 
 
-1. Kendo Core and KendoUI bridge installation as defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html)** 
+Run the following command in the console:
 
-  Run the following command in the console:
-
-   ```
+```
    jspm install css kendo-ui aurelia-kendoui-bridge
-   ```
+```
 
-2. Update `config.js`, _by adding the last line, pointed by the arrow._
+##### Step 2.
+Update `config.js`, _by adding the last line, pointed by the arrow._
 
- ```
+```
     paths: {
        "*": "dist/*",
        "github:*": "jspm_packages/github/*",
        "npm:*": "jspm_packages/npm/*",
        "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
-    },
-    
- ```
+    }, 
+```
  _Note that the version number shown above (2016.3.1306) is the latest available at the time of writing this document - you will likely have to change it._
  
 3. Add the `autocomplete.js` file
