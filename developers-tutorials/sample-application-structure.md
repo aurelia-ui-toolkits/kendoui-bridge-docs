@@ -20,9 +20,9 @@ We will use the "colored agenda" below to tag the "categories" of files in each 
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21949515/055e7698-d9c1-11e6-9752-4c65b6fb6f44.png"></img>
- <br><br>
-
 </p>
+
+***
 
 
  
