@@ -153,10 +153,10 @@ _Application Developer tutorials_
     ```
 
 6. Add the request to load the aurelia-kendoui-bridge plugin. This should be done by adding the highlighted statement below to the file `main.js`
-<p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/21957188/336469e6-da5f-11e6-809f-17ca049854a3.png"></img>
-</p>
 
+<p align=center>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/21959138/412ffcfc-da8c-11e6-82bd-b326e34e830d.png"></img>
+</p>
 7. Add the following line to `app.js`
     
  ```
