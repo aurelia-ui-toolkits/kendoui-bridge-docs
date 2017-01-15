@@ -20,7 +20,7 @@
     * [esnext-aspnetcore - kendo](developers-tutorials/43_es2016-aspnet5.md)
     * [typescript - kendo](developers-tutorials/44_typescript.md)
     * [typescript-aspnetcore - kendo](developers-tutorials/45_typescript-aspnet5.md)
-    * [webpack](developers-tutorials/46_webpack.md)
+    * [esnext- webpack](developers-tutorials/46_webpack.md)
     * [typescript-webpack kendo](typescript-webpack-kendo.md)
 * [Developers notes](developers_notes.md)
     * [Current limitations](app-developers-notes/current_limitations.md)
