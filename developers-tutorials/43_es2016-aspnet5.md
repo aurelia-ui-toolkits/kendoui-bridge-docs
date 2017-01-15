@@ -181,7 +181,6 @@ Add the request to load the aurelia-kendoui-bridge plugin by adding the highligh
 ##### Step 8.
 
 Add the following line to `app.js`
-    
  ```
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
  ```
