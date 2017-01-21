@@ -117,7 +117,7 @@ attached() {
 ```
 
 
-**Taskqueue**  
+**TaskQueue**  
 Aurelia's TaskQueue can be used to delay execution of code until all tasks on the task queue (binding included) has finished:
 
     <button ak-button="k-widget.bind: button">My button</button>
