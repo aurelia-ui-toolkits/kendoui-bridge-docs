@@ -86,10 +86,41 @@ Every wrapper exports a `k-widget` property that you can two-way bind to.
 
 You can then use the `autocomplete` variable to communicate with the Kendo widget.
 
-**IMPORTANT**: **the binding system has not finished in `attached()` causing the bound variable (`autocomplete` in the sample above) to be undefined. If you need to communicate with the widget from inside the `attached` or `bind` callback, use either the `view-model.ref` approach or use the taskque (sample below).**
+**IMPORTANT**: **k-widget bound variables cannot be used from bind() or attached() as the Kendo control gets initialized after attached().**
+
+Fortunately there are other ways to use the widget after it gets initialized. We will list a few below:
 <br><br>
 
+**k-on-ready event**
+
+All aurelia-kendoui-bridge custom elements and custom attributes raises the `k-on-ready` DOM event as soon as the Kendo control has been initialized.
+
+It can be used as follows:
+```
+<input ak-datetimepicker k-on-ready.delegate="onReady($event.detail)" style="width: 100%" />
+
+onReady(datePicker) {
+  datePicker.value(new Date(1994,4,2));
+}
+```
+
+**setTimeout**
+You can delay the execution of code in bind() or attached() so that when the code is executed the control will be available:
+```
+<button ak-button="k-widget.bind: button">My button</button>
+
+attached() {
+  setTimeout(() => {
+    this.button.enable(false);
+  }, 50);
+}
+```
+
+
 **Taskqueue**  
+Aurelia's TaskQueue can be used to delay execution of code until all tasks on the task queue (binding included) has finished:
+
+    <button ak-button="k-widget.bind: button">My button</button>
 
 	import {TaskQueue, inject} from 'aurelia-framework';
 
@@ -101,12 +132,11 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 
 		attached() {
 			this.taskQueue.queueTask(() => {
-			  this.autocomplete.enable(false);
+			  this.button.enable(false);
 			});
 		}
 	}
-    
-**(We have made a `@delayed` decorator to make this easier. Check out [this sample](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic/use-widget-on-initialization))**
+
 
 <br>
 <br>
