@@ -105,6 +105,7 @@ onReady(datePicker) {
 ```
 
 **setTimeout**
+
 You can delay the execution of code in bind() or attached() so that when the code is executed the control will be available:
 ```
 <button ak-button="k-widget.bind: button">My button</button>
@@ -118,6 +119,7 @@ attached() {
 
 
 **TaskQueue**  
+
 Aurelia's TaskQueue can be used to delay execution of code until all tasks on the task queue (binding included) has finished:
 
     <button ak-button="k-widget.bind: button">My button</button>
