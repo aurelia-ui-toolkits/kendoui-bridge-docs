@@ -150,6 +150,7 @@ Kendo controls do not support two-way binding, as Kendo controls are not monitor
 - recreate the control after changing a property
 
 ** Calling API functions on the control**  
+
 Lets say that you wanted to change the title of the Kendo Window. The k-title property does not support two-way binding but we can call a function on the Kendo control to change the title. We know that we can because the [kendo documentation](http://docs.telerik.com/kendo-ui/api/javascript/ui/window#methods) of the Window mentions a `title` function.
 
 So the following will change the window title:
