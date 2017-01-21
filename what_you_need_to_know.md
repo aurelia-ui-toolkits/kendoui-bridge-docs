@@ -179,7 +179,8 @@ changeTitle() {
 ```
 
  
-**Exceptions**  
+**Exceptions**
+  
 In order to make your life a bit easier we have added support for two-way binding on a few properties that are commonly used. The following properties support two-way binding:
 
 - k-value
