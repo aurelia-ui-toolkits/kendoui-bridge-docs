@@ -162,7 +162,8 @@ changeTitle() {
 }
 ```
 
-** Recreate the control**  
+** Recreate the control** 
+ 
 Try to avoid this as much as possible, by using an API function (see above) if it exists. There is a recreate function on the **wrapper** (not the Kendo control) that recreates the Kendo control. 
 
 ```
