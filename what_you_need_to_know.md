@@ -39,6 +39,8 @@ This translates into this HTML tag:
 Here we are using the `ak-` prefix for the button custom attribute and the `k-` prefix for the `enable` property of the button.
 <br><br>
 
+When trying to use properties that are camelcased, in HTML they become dashed: `dataSource` -> `data-source`.
+
 It is also possible to delegate Kendo events. The `k-on-` prefix has to be used here.
 
 To illustrate this, we'll take a look at the [open](http://docs.telerik.com/kendo-ui/api/javascript/ui/autocomplete#events-open) event of the Autocomplete control. This translates into:
