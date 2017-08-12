@@ -1,6 +1,10 @@
 {
-    "plugins": [
-        "anchors"
-    ],
-    "pluginsConfig": {}
+  "plugins": ["editlink", "anchors"],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "https://github.com/aurelia-ui-toolkits/kendoui-bridge-docs/tree/master/",
+      "label": "Edit this page",
+      "multilingual": false
+    }
+  }
 }
