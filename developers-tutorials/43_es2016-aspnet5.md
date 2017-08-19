@@ -16,23 +16,18 @@ _Application Developer tutorials_
 
 Run the following command in the console:
 
-   ```
+```
    jspm install css kendo-ui aurelia-kendoui-bridge
-   ```
+```
 
-##### Step 2. 
 
-Run the following command in the console:
-
- ```
- jspm install css kendo-ui aurelia-kendoui-bridge
- ```
 (_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
 
 
-##### Step 3. 
+##### Step 2. 
 
 Update **`config.js`** (_Note that this file is now in `wwwroot/config.js` file_)
+
 ```
     paths: {
        "*": "dist/*",
@@ -42,9 +37,10 @@ Update **`config.js`** (_Note that this file is now in `wwwroot/config.js` file_
     },
 ```
 
-##### Step 4. 
+##### Step 3. 
 
 Add this **`autocomplete.js`** file to the project
+
 ```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
@@ -62,9 +58,10 @@ Add this **`autocomplete.js`** file to the project
     }
 ```
 
-##### Step 5.
+##### Step 4.
 
 Add this **`autocomplete.html`** file project
+
 ```
     <template>
       <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
@@ -101,9 +98,10 @@ Add this **`autocomplete.html`** file project
     </template>
 ```
 
-##### Step 6. 
+##### Step 5. 
 
 Add this **`autocomplete.css`** file to the project
+
 ```
     .dropdown-header {
             border-width: 0 0 1px 0;
@@ -169,7 +167,7 @@ Add this **`autocomplete.css`** file to the project
         }
 ```
 
-##### Step 7.
+##### Step 6.
 
 Add the request to load the aurelia-kendoui-bridge plugin by adding the highlighted statement below (`.plugin('aurelia-kendoui-bridge');` to the file `main.js`
 
@@ -178,12 +176,13 @@ Add the request to load the aurelia-kendoui-bridge plugin by adding the highligh
 </p>
 
 
-##### Step 8.
+##### Step 7.
 
 Add the following line to `app.js`
- ```
+
+```
     { route: 'autocomplete',  name: 'autocomplete', moduleId: 'autocomplete', nav: true, title: 'Autocomplete' }
- ```
+```
  
  ***
 
