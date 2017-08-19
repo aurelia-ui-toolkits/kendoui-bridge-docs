@@ -30,6 +30,7 @@ where the actual code, building tools and internal organization of each sample v
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21911435/c664147a-d8ee-11e6-924b-f0ef23ccff05.png"></img>
+  <br><br>
 Image 3
 </p>
 
