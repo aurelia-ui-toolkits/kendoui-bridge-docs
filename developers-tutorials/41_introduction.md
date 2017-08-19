@@ -22,6 +22,7 @@ Each of the **original** navigation skeleton applications renders the same UI:
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21910984/71d9f35e-d8ec-11e6-9b3b-a3a691318778.png"></img>
+  <br>
 Image 2
 </p>
 
@@ -30,7 +31,7 @@ where the actual code, building tools and internal organization of each sample v
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/21911435/c664147a-d8ee-11e6-924b-f0ef23ccff05.png"></img>
-  <br><br>
+  <br>
 Image 3
 </p>
 
