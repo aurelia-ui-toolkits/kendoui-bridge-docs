@@ -37,7 +37,8 @@ Update `config.js`, _by adding the last line, pointed by the arrow._
 ##### Step 3.
 
 Add the `autocomplete.js` file to the project.
-    ```
+
+```
     import 'kendo-ui/js/kendo.autocomplete.min';
 
     export class autocomplete{
@@ -52,7 +53,7 @@ Add the `autocomplete.js` file to the project.
         };
       }	
     }
-    ```
+```
 
 ##### Step 4.
 
