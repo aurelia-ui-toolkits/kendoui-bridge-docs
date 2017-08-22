@@ -36,9 +36,17 @@ Update **`config.js`** by adding the last line, pointed by the arrow.
 ##### Step 3.
 
 Run the following command in the console:
+
+  ```
+  npm install @types/kendo-ui
+  ```
+  
+**Note**: since Typescript 2.0, the command below is **[deprecated](https://github.com/typings/typings#deprecation-notice-regarding-typescript20)**, although it may still work.
+
  ```
  typings install kendo-ui --source=dt --global
  ```
+ 
  
 ##### Step 4. 
 
