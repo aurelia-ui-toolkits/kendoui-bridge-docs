@@ -175,5 +175,9 @@ You will need to map every file in the Kendo `js` directory to the `kendo.all.mi
 <br>
 
 ***
+
+### Important note
+You can find this complete application as a **[companion document](https://github.com/aurelia-ui-toolkits/skeleton-navigation-typescript-kendo-bundled)** to this book. The application's **[README](https://github.com/aurelia-ui-toolkits/skeleton-navigation-typescript-kendo-bundled/blob/master/README.md)** file covers bundling issues in even more details, so make sure to check this document.
+
 ***
 
