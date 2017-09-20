@@ -2,10 +2,9 @@
 
 #### Summary
 
-This article replaces the original **[esnext-aspnetcore - kendo-2015](./43_es2016-aspnet5.html#esnext-aspnetcore---kendo)** by describing the changes due to .NET Core 2.0 SDK
+This article replaces the original **[esnext-aspnetcore - kendo-2015](./43_es2016-aspnet5.html#esnext-aspnetcore---kendo)** by describing the changes due to .NET Core 2.0 SDK. Note that the reference to installing .NET core SDK (as mentioned in the paragraph below has to be changed to point to **[this](https://www.microsoft.com/net/core#windowscmd)** article.
 
-- Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore/src/skeleton#running-the-app-without-visual-studio)**.
-
+- Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore/src/skeleton#running-the-app-without-visual-studio)**. 
 - Kendo Core and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
 
 
