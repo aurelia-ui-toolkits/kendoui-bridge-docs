@@ -6,13 +6,15 @@ This article replaces the original **[esnext-aspnetcore - kendo-2015](./43_es201
 
 - Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore/src/skeleton#running-the-app-without-visual-studio)**.
 
-- Temporarily (until this whole books is completely updated0, please use the this next section as a guide for Kendo Core and KendoUI bridge installation.
-
+- Temporarily (until this whole books is completely updated0, please use the this next section as a guide for KendoUI SDK and KendoUI bridge installation. Observe that several references to KendoUI SDK are different than in the original **[esnext-aspnetcore - kendo-2015](./43_es2016-aspnet5.html#esnext-aspnetcore---kendo)** chapter. 
 
 
 ***
 
 ## Details
+
+#### Step 0 - KendoUI SDK and KendoUI bridge installation
+
 
 #### Step 1. 
 
