@@ -1,18 +1,20 @@
 # esnext-aspnetcore - kendo-2017
 
-#### Summary
+## Summary
 
 This article replaces the original **[esnext-aspnetcore - kendo-2015](./43_es2016-aspnet5.html#esnext-aspnetcore---kendo)** by describing the changes due to .NET Core 2.0 SDK. Note that the reference to installing .NET core SDK (as mentioned in the paragraph below has to be changed to point to **[this](https://www.microsoft.com/net/core#windowscmd)** article.
 
-- Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore/src/skeleton#running-the-app-without-visual-studio)**. 
-- Kendo Core and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
+- Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore/src/skeleton#running-the-app-without-visual-studio)**.
+
+- Temporarily (until this whole books is completely updated0, please use the this next section as a guide for Kendo Core and KendoUI bridge installation.
+
 
 
 ***
 
-#### Details
+## Details
 
-##### Step 1. 
+#### Step 1. 
 
 Run the following command in the console:
 
@@ -24,7 +26,7 @@ Run the following command in the console:
 (_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
 
 
-##### Step 2. 
+#### Step 2. 
 
 Update **`config.js`** (_Note that this file is now in `wwwroot/config.js` file_)
 
@@ -37,7 +39,7 @@ Update **`config.js`** (_Note that this file is now in `wwwroot/config.js` file_
     },
 ```
 
-##### Step 3. 
+#### Step 3. 
 
 Add this **`autocomplete.js`** file to the project
 
@@ -58,7 +60,7 @@ Add this **`autocomplete.js`** file to the project
     }
 ```
 
-##### Step 4.
+#### Step 4.
 
 Add this **`autocomplete.html`** file project
 
@@ -98,7 +100,7 @@ Add this **`autocomplete.html`** file project
     </template>
 ```
 
-##### Step 5. 
+#### Step 5. 
 
 Add this **`autocomplete.css`** file to the project
 
@@ -167,7 +169,7 @@ Add this **`autocomplete.css`** file to the project
         }
 ```
 
-##### Step 6.
+#### Step 6.
 
 Add the request to load the aurelia-kendoui-bridge plugin by adding the highlighted statement below (`.plugin('aurelia-kendoui-bridge');` to the file `main.js`
 
@@ -176,7 +178,7 @@ Add the request to load the aurelia-kendoui-bridge plugin by adding the highligh
 </p>
 
 
-##### Step 7.
+#### Step 7.
 
 Add the following line to `app.js`
 
