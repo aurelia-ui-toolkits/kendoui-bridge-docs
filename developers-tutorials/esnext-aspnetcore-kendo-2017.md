@@ -6,7 +6,7 @@ This article replaces the original **[esnext-aspnetcore - kendo-2015](./43_es201
 
 - Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore/src/skeleton#running-the-app-without-visual-studio)**.
 
-- Temporarily (until this whole books is completely updated0, please use the this next section as a guide for KendoUI SDK and KendoUI bridge installation. Observe that several references to KendoUI SDK are different than in the original **[esnext-aspnetcore - kendo-2015](./43_es2016-aspnet5.html#esnext-aspnetcore---kendo)** chapter. 
+- Temporarily (until this whole books is completely updated, please use the this next section as a guide for KendoUI SDK and KendoUI bridge installation. Observe that several references to KendoUI SDK are different than in the original **[esnext-aspnetcore - kendo-2015](./43_es2016-aspnet5.html#esnext-aspnetcore---kendo)** chapter. 
 
 
 ***
@@ -15,29 +15,38 @@ This article replaces the original **[esnext-aspnetcore - kendo-2015](./43_es201
 
 #### Step 0 - KendoUI SDK and KendoUI bridge installation
 
+Progress / Telerik has dramatically improved the tooling for KendoUI SDK distribution and installation by adding the support for using **npm** in that process (see **[this article](http://docs.telerik.com/kendo-ui/intro/installation/npm)** for more details). Because of that, we will now always use the command
+
+```
+npm install --save @progress/kendo-ui
+``` 
+
+as the means to add KendoUI PRO SDK to various applications described in this set of tutorials
 
 #### Step 1. 
 
-Run the following command in the console:
+Since we are starting with the well known **[skeleton-esnext-aspnetcore](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext-aspnetcore)**,  let's start with making the folder `skeleton-esnext-aspnetcore-2017\src\skeleton` to be the current folder and entering the following commands in the console:
 
 ```
-   jspm install css kendo-ui aurelia-kendoui-bridge
+    npm install --save @progress/kendo-ui
+    npm install css aurelia-kendoui-bridge
+    jspm install
 ```
 
 
-(_Note that at this point, the `npm install && jspm install` command was already executed to get the original app built - see the **[related README](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext-aspnetcore/src/skeleton/README.md#running-the-app-without-visual-studio)** for details._)
+(_Note that `jspm install` simply updates the existing `config.js`file, to accomodate for just added KendoUI SDK, as well as `css` and `aurelia-kendoui-bridge` bridge libraries. _)
 
 
 #### Step 2. 
 
-Update **`config.js`** (_Note that this file is now in `wwwroot/config.js` file_)
+Manually pdate **`config.js`** (_Note that this file is now in `wwwroot/config.js` file_)
 
 ```
     paths: {
        "*": "dist/*",
        "github:*": "jspm_packages/github/*",
        "npm:*": "jspm_packages/npm/*",
-       "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
+       "kendo.*": "node_modules/@progress\kendo-ui/js/kendo.*.js"
     },
 ```
 
