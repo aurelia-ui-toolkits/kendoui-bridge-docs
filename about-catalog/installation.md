@@ -1,21 +1,20 @@
 _About this application_
 # 1.4 Installation
 
-The **[Installation page](http://aurelia-ui-toolkits.github.io/demo-kendo/#/installation)** contains detailed description of all three installation variants which depend on how do you plan to get **[KendoUI product](http://www.telerik.com/kendo-ui)** from Telerik.
+The **[Installation page](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-library-installation-version-2-0/content/)** contains detailed description several installation variants of the Aurelia Kendo UI Bridge and Kendo UI Library (often referred to as a framework). The installation depends mainly on the tooling you plan to use when building your Aurelia applications.
+
+Note that Telerik's decision to distribute its framework via npm (see **[here](http://docs.telerik.com/kendo-ui/intro/installation/npm)** for details) has dramatically simplified the process of installing it for the use with Aurelia Kend UI Bridge - all the different previous variants are reduced to just two, dependent on whether the application uses JSPM or not; see **[Kendo UI Library installation - section General comments](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-library-installation-version-2-0/content/library-installation/general-comments.html)** for more details.
+
 <br>
-
-You could already have the KendoUI PRO license, or you plan to download the KendoUI PRO evaluation copy - in both such cases you should select the HAVING KENDOUI ALREADY: VENDORS tab which provides all details of the approach where KendoUI is kept in the `vendors` folder in you project.
-
-The other two alternatives are variants of the same idea - grab the free copy of a free subset of KendoUI controls set, often referred to as Kendo core. If you want to take the **[Github route](https://github.com/telerik/kendo-ui-core)**, select the NEW FROM GITHUB: KENDO CORE tab. The last alternative described in NEW FROM GITHUB: JSPM-GIT tab handles the case where you want to fetch KendoUI core from **[Telerik's website using bower](http://docs.telerik.com/kendo-ui/intro/installation/bower-install#install-bower-packages)**
 
 The screen shot below depicts the Aurelia-KendoUI-bridge **[Installation page](#/installation/installation.html)**
 <br>
-<br>
+
 <p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/15594523/3ed8fb44-2384-11e6-8dcb-89379d681dc8.png"></img>
+  <img src="https://user-images.githubusercontent.com/2712405/30826818-eaa15e02-a205-11e7-8418-569d07cea27b.png"></img>
  <br><br>
-Image 1
 </p>
+
 
 ***
 ***
