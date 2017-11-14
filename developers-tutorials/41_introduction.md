@@ -11,6 +11,8 @@ In order to cover all platforms and tooling choices currently supported by Aurel
 Image 1
 </p>
 
+We will use the KendoUI SDK installation method described in **[General comments](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-library-installation-version-2-0/content/library-installation/general-comments.html)** section of the **[KendoUI Library Installation](http://aurelia-ui-toolkits.github.io/demo-kendo/#/installation)** document.
+
 and explain how to use **KendoUI-core** version of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
 
 
