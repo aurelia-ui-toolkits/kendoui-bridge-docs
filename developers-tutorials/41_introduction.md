@@ -13,8 +13,6 @@ Image 1
 
 We will use the KendoUI SDK installation method described in **[General comments](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-library-installation-version-2-0/content/library-installation/general-comments.html)** section of the **[KendoUI Library Installation](http://aurelia-ui-toolkits.github.io/demo-kendo/#/installation)** document.
 
-and explain how to use **KendoUI-core** version of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
-
 
 ***
 
@@ -36,4 +34,11 @@ where the actual code, building tools and internal organization of each sample v
   <br>
 Image 3
 </p>
+
+All such modified samples are stored in **[kendo-tutorials.code-2.0](https://github.com/aurelia-ui-toolkits/kendo-tutorials.code-2.0)** repository.
+
+***
+***
+
+
 
