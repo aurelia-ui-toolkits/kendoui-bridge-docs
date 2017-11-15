@@ -22,7 +22,7 @@ The subsequent steps are applied to the copy of the **[original typescript sampl
 
 ##### Step 1.
 
-Run the following command in the console:
+Run the following command in the console (note the format **`npm:@progress/kendo-ui`**):
 
    ```
    jspm install css npm:@progress/kendo-ui aurelia-kendoui-bridge
