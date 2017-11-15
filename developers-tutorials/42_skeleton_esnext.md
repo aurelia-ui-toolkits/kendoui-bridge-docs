@@ -24,6 +24,11 @@ Run the following command (see [JSPM based KendoUI Library installation](https:/
 ```
 jspm install css npm:@progress/kendo-ui aurelia-kendoui-bridge
 ```
+<p align=center>
+  <img src="https://user-images.githubusercontent.com/2712405/32817593-b1d8f572-c98c-11e7-9a1e-3f7a96b27e9e.png"></img>
+ <br>
+ Image 1 - installed KendoUI SDK using npm
+</p>
 
 ##### Step 2.
 
