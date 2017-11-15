@@ -13,12 +13,20 @@ _Application Developer tutorials_
 
 #### Details
 
+The subsequent steps are applied to the copy of the **[original typescript sample](https://github.com/aurelia-ui-toolkits/kendo-tutorials.code-2.0/tree/master/skeleton-typescript/before)**, which is located in the **["after"](https://github.com/aurelia-ui-toolkits/kendo-tutorials.code-2.0/tree/master/skeleton-typescript/after)** folder, rebuilt and verified from scratch using the command
+
+```
+ npm install && jspm install && gulp watch
+```
+
+
 ##### Step 1.
 
 Run the following command in the console:
 
    ```
-   jspm install css kendo-ui aurelia-kendoui-bridge
+   jspm install css npm:@progress/kendo-ui aurelia-kendoui-bridge
+
    ```
 
 ##### Step 2.
