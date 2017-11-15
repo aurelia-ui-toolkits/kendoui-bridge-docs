@@ -87,8 +87,8 @@ Add this **`autocomplete.html`** file to the project
 template>
   <require from="aurelia-kendoui-bridge/autocomplete/autocomplete"></require>
   <require from="aurelia-kendoui-bridge/common/template"></require>
-  <require from="kendo-ui/styles/kendo.common.min.css!"></require>
-  <require from="kendo-ui/styles/kendo.bootstrap.min.css!"></require>
+  <require from="kendo-ui/css/web/kendo.common.min.css!"></require>
+  <require from="kendo-ui/css/web/kendo.bootstrap.min.css!"></require>
   <require from="./autocomplete.css"></require>
 
   <div id="example" style="margin-top: 20px; margin-left: 20px">
