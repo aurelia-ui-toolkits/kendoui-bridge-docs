@@ -51,7 +51,7 @@ paths: {
 Add the `autocomplete.js` file to the project.
 
 ```
-import 'kendo-ui/js/kendo.autocomplete.min';
+import 'kendo-ui/js/kendo.autocomplete';
 
 export class autocomplete{
   constructor() {
