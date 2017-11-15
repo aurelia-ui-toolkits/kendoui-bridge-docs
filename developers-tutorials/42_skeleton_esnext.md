@@ -2,9 +2,9 @@ _Application Developer tutorials_
 # esnext kendo
 
 #### Summary
-- Details on building and running this applications are **[here](https://github.com/aurelia/skeleton-navigation/blob/master/skeleton-esnext/README.md)**.
+- Details on building and running this application are **[here](https://github.com/aurelia-ui-toolkits/kendo-tutorials.code-2.0/blob/master/skeleton-esnext/before/README.md)**.
 
-- Kendo Core and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-sdk-installation/content/installation/installing%20kendo/advanced/core/jspm.html).** 
+- KendoUI Library (SDK) and KendoUI bridge installation is defined in **[this section of the Installation document](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-library-installation-version-2-0/content/library-installation/advanced-via-module-loader/jspm.html).** 
 
 
 ***
