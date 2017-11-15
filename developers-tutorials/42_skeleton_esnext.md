@@ -182,9 +182,18 @@ Add the `autocomplete.css` file to the project
 
 Add the request to load the aurelia-kendoui-bridge plugin by adding the highlighted statement below (`.plugin('aurelia-kendoui-bridge');` to the file `main.js`
 
-<p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/21959138/412ffcfc-da8c-11e6-82bd-b326e34e830d.png"></img>
-</p>
+```
+import 'bootstrap';
+
+export function configure(aurelia) {
+  aurelia.use
+    .standardConfiguration()
+    .developmentLogging()
+    .plugin('aurelia-kendoui-bridge');
+
+  aurelia.start().then(() => aurelia.setRoot());
+}
+```
 
 ##### Step 7.
 
