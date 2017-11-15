@@ -28,6 +28,13 @@ Run the following command in the console (note the format **`npm:@progress/kendo
    jspm install css npm:@progress/kendo-ui aurelia-kendoui-bridge
 
    ```
+   
+<p align=center>
+  <img src="https://user-images.githubusercontent.com/2712405/32861212-0f2b8204-ca22-11e7-9e41-def57139ec87.png"></img>
+ <br>
+ Image 1 - installed KendoUI SDK using npm
+</p>
+
 
 ##### Step 2.
 
