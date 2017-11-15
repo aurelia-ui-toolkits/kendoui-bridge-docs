@@ -197,7 +197,7 @@ Add this **`autocomplete.css`** file to the project
 
 ##### Step 7.
 
-Add the request to load the aurelia-kendoui-bridge plugin by adding the statement **`.plugin('aurelia-kendoui-bridge';`** to the file **`main.js`**
+Add the request to load the aurelia-kendoui-bridge plugin by adding the statement **`.plugin('aurelia-kendoui-bridge';`** to the file **`main.ts`**
 
 ```
 import 'bootstrap';
