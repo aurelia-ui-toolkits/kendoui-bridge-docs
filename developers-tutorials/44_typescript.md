@@ -49,7 +49,7 @@ Run the following command in the console:
   npm install @types/kendo-ui
   ```
   
-**Note**: since Typescript 2.0, the command below is **[deprecated](https://github.com/typings/typings#deprecation-notice-regarding-typescript20)**, although it may still work.
+**Note**: since Typescript 2.0, the command below is **[deprecated](https://github.com/typings/typings#deprecation-notice-regarding-typescript20)**, although it may still work. Do not run this, if `npm install @types/kendo-ui` is sufficient to make your application run correctly
 
  ```
  typings install kendo-ui --source=dt --global
@@ -190,11 +190,21 @@ Add this **`autocomplete.css`** file to the project
 
 ##### Step 7.
 
-Add the request to load the aurelia-kendoui-bridge plugin by adding the highlighted statement below (**`.plugin('aurelia-kendoui-bridge');`** to the file **`main.js`**
+Add the request to load the aurelia-kendoui-bridge plugin by adding the statement **`.plugin('aurelia-kendoui-bridge';`** to the file **`main.js`**
 
-<p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/21959138/412ffcfc-da8c-11e6-82bd-b326e34e830d.png"></img>
-</p>
+```
+import 'bootstrap';
+import {Aurelia} from 'aurelia-framework';
+
+export function configure(aurelia: Aurelia) {
+  aurelia.use
+    .standardConfiguration()
+    .developmentLogging()
+    .plugin('aurelia-kendoui-bridge');   <----
+
+  aurelia.start().then(() => aurelia.setRoot());
+}
+```
 
 ##### Step 8.
 
