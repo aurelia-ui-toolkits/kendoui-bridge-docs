@@ -19,10 +19,10 @@ The subsequent steps are applied to the copy of the **[original esnext sample](h
 
 ##### Step 1. 
 
-Run the following command in the console:
+Run the following command (see [JSPM based KendoUI Library installation](https://aurelia-ui-toolkits.gitbooks.io/kendo-ui-library-installation-version-2-0/content/library-installation/advanced-via-module-loader/jspm.html)) in the console:
 
 ```
-jspm install css kendo-ui aurelia-kendoui-bridge
+jspm install css npm:@progress/kendo-ui aurelia-kendoui-bridge
 ```
 
 ##### Step 2.
