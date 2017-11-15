@@ -16,7 +16,7 @@ _Application Developer tutorials_
 The subsequent steps are applied to the copy of the **[original typescript sample](https://github.com/aurelia-ui-toolkits/kendo-tutorials.code-2.0/tree/master/skeleton-typescript/before)**, which is located in the **["after"](https://github.com/aurelia-ui-toolkits/kendo-tutorials.code-2.0/tree/master/skeleton-typescript/after)** folder, rebuilt and verified from scratch using the command
 
 ```
- npm install && jspm install && gulp watch
+npm install && jspm install && gulp watch
 ```
 
 
