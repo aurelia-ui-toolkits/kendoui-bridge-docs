@@ -41,10 +41,10 @@ Run the following command in the console (note the format **`npm:@progress/kendo
 Update **`config.js`** by adding the last line, pointed by the arrow.
  ```
     paths: {
-       "*": "dist/*",
-       "github:*": "jspm_packages/github/*",
-       "npm:*": "jspm_packages/npm/*",
-       "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.3.1306/js/kendo.*.js" <----
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*",
+    "kendo.*": "jspm_packages/github/npm/progress/kendo-ui@2017.3.1026/js/kendo.*.js",  
+    "kendo-ui/*": "jspm_packages/npm/@progress/kendo-ui@2017.3.1026/*"
     },
  ```
  
