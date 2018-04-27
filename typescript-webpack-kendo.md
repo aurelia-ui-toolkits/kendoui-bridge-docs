@@ -52,7 +52,7 @@ Run the following command in the console:
 
 Add this **`autocomplete.ts`** file to the project
     ```
-    import 'kendo-ui/js/kendo.autocomplete.min';
+    import 'kendo-ui-core/js/kendo.autocomplete';
 
     export class autocomplete{
       constructor() {
